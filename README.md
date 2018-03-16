@@ -4,12 +4,6 @@
 
 <p align="center">NexT 是一个高质量并且优雅的<a href="http://hexo.io">Hexo</a> 主题。这是精心制作做出来的 hexo 主题。</p>
 
-[![Join the chat at https://gitter.im/iissnan/hexo-theme-next](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/iissnan/hexo-theme-next?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![mnt-image]][commits-url]
-[![travis-image]][travis-url]
-[![rel-image]][releases-url]
-[![hexo-image]][hexo-url]
-[![lic-image]](LICENSE)
 
 ## 实时预览 Live Preview
 
@@ -32,12 +26,10 @@
 **2.** 从 github 上获取主题:
 
 
-### 下载[最新的 master 分支][download-latest-url]  Download latest master branch
-
-   [![git-image]][git-url]
+### 克隆仓库
 
    ```sh
-   $ git clone https://github.com/iissnan/hexo-theme-next themes/next
+   $ git clone git@github.com/lk361115629/hexo-theme-next themes/next
    ```
 
 **3.** 在 **hexo 根目录下** 的配置文件`_config.yml`里设置主题:
@@ -156,14 +148,3 @@ social:
   DouBan: your-douban-url
   ZhiHu: your-zhihu-url
 ```
-
-### 内置5种代码高亮主题 Up to 5 code highlight themes built-in
-
-NexT 使用的是 [Tomorrow 主题](https://github.com/chriskempson/tomorrow-theme) ，一共有5种主题供你选择。
-Next 默认使用 `normal`. 下面是 `normal` 和 `night` 主题的预览:
-
-![Tomorrow Normal Preview](http://iissnan.com/nexus/next/tomorrow-normal.png)
-![Tomorrow Night Preview](http://iissnan.com/nexus/next/tomorrow-night.png)
-
-查看更多信息点击[Tomorrow 主题](https://github.com/chriskempson/tomorrow-theme)。
-
