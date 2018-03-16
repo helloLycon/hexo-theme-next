@@ -129,6 +129,7 @@ social:
   GitHub: https://github.com/lk361115629 || github
   邮箱:   mailto:lycon123@foxmail.com || envelope
   微博:   https://weibo.com/lycon361 || weibo
+  
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -141,7 +142,7 @@ social:
 social_icons:
   enable: true
   icons_only: true
-  transition: true
+  transition: false
 
 # Blog rolls
 links_icon: link
