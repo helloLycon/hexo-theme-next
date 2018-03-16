@@ -26,7 +26,7 @@
 **2.** 从 github 上获取主题:
 
    ```sh
-   $ git clone git@github.com/lk361115629/hexo-theme-next themes/next
+   $ git clone git@github.com:lk361115629/hexo-theme-next themes/next
    ```
 
 **3.** 在 **hexo 根目录下** 的配置文件`_config.yml`里设置主题:
