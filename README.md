@@ -25,9 +25,6 @@
 
 **2.** 从 github 上获取主题:
 
-
-### 克隆仓库
-
    ```sh
    $ git clone git@github.com/lk361115629/hexo-theme-next themes/next
    ```
