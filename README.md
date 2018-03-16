@@ -76,23 +76,6 @@ language: en
 language: zh-Hans
 ```
 
-### 评论支持 Comment support
-
-NexT 已经原生支持 `多说` and `Disqus` 评论系统。
-
-添加以下代码到你的主题配置文件 `_config.yml`:
-
-```yml
-duoshuo:
-  enable: true
-  shortname: your-duoshuo-shortname
-```
-
-或者
-
-```yml
-disqus_shortname: your-disqus-shortname
-```
 
 ### 标签页 Tags page
 
@@ -115,36 +98,14 @@ disqus_shortname: your-disqus-shortname
           archives: /archives
           tags: /tags
 
-### 分类页 Categories page
-
-> 添加一个分类页面，里面包含您网站中的所有分类。
-
-- 创建一个名为 `categories` 页面
-
-        hexo new page "categories"
-
-- 编辑分类页, 设置页面类型为 `categories`.
-
-        title: All categories
-        date: 2014-12-22 12:39:04
-        type: "categories"
-
-- 添加 `categories` 到主题配置文件 `_config.yml` 里:
-
-        menu:
-          home: /
-          archives: /archives
-          categories: /categories
-
 ### 社交媒体 Social Media
 
 NexT 可以自动添加链接到您的社交媒体帐户里:
 
 ```yml
 social:
-  GitHub: your-github-url
-  Twitter: your-twitter-url
-  Weibo: your-weibo-url
-  DouBan: your-douban-url
-  ZhiHu: your-zhihu-url
+  GitHub: your-github-url   || github
+  Twitter: your-twitter-url || twitter
+  Weibo: your-weibo-url     || weibo
+  E-mail: your-email-url    || envelope
 ```
