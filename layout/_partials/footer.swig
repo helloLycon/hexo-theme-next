@@ -21,11 +21,13 @@
   {% endif %}
 </div>
 
+
 {% if theme.footer.powered %}
   <div class="powered-by">{#
   #}{{ __('footer.powered', '<a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a>') }}{#
 #}</div>
 {% endif %}
+
 
 {% if theme.footer.powered and theme.footer.theme.enable %}
   <span class="post-meta-divider">|</span>
@@ -45,3 +47,8 @@
   #}{{ theme.footer.custom_text }}{#
 #}</div>
 {% endif %}
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共{{ totalcount(site) }}字</span>
+</div>
