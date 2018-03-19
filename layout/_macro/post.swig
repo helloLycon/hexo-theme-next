@@ -340,6 +340,12 @@
       </div>
     {% endif %}
 
+	<div>
+	  {% if not is_index %}
+		{% include 'passage-end-tag.swig' %}
+	  {% endif %}
+	</div>
+	
     {% if (theme.alipay or theme.wechatpay or theme.bitcoin) and not is_index %}
       <div>
         {% include 'reward.swig' %}
